@@ -101,6 +101,7 @@ python snake_rl/training/train_dqn.py --episodes 5000
 - Training log saved to `snake_rl/models/dqn_training_log.csv`
 
 ### 2. Train PPO Agent
+NOTE: We recommend training this agent for at least 10,000 episodes, as before than, it performs fairly poorly.
 
 Train the PPO agent for 2000 episodes (default):
 
